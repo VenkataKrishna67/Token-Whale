@@ -2,11 +2,6 @@
 
 **TokenWhale** is a Chrome extension that helps users reduce token usage when interacting with Large Language Models (LLMs) like ChatGPT. By optimizing prompts, managing outputs, and estimating image token costs, TokenWhale promotes more sustainable and efficient AI usage.
 
-
-Demo :
-https://www.linkedin.com/feed/update/urn:li:activity:7318726995423436802/
----
-
 ## 🐋 Name Inspiration: TokenWhale 
 The name TokenWhale is inspired by the carbon-capturing power of real whales. According to Sustainability by Numbers, each whale can capture and help store around 33 tons of CO₂, making them vital to the planet’s climate balance.
 
@@ -33,22 +28,6 @@ Every token processed by an LLM consumes compute, energy, and adds to its enviro
 
 TokenWhale empowers users to interact with LLMs more efficiently and sustainably.
 
----
-
-## 🛠 Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/surajshivkumar/TokenWhale.git
-   ```
-
-2. Load the extension in Chrome:
-   - Open Chrome and go to `chrome://extensions/`
-   - Enable **Developer mode** (top-right toggle)
-   - Click **Load unpacked**
-   - Select the `extension` folder from your local machine
-
----
 
 ## 📁 Project Structure
 
@@ -87,34 +66,6 @@ After resizing to **512 × 512**:
 - 1 tile → (1 × 170) + 85 = **255 tokens**
 
 ✅ **Savings: ~850 tokens**
-
----
-
-## 💡 Optimization Tips
-
-TokenWhale recommends:
-- Writing shorter prompts (e.g., “Summarize in 3 lines”)
-- Reducing unnecessary response length
-- Starting new chats when history/context gets long
-- Resizing high-res images before uploading to models
-
----
-
-## 👨‍💻 Contributing
-
-We welcome contributions from the community!
-
-To contribute:
-1. Fork the repository  
-2. Create a new branch (`git checkout -b feature-name`)  
-3. Commit your changes  
-4. Push and submit a pull request
-
-## 📬 Contact
-
-Questions, ideas, or feedback?  
-Open an issue or start a discussion on the repo:  
-🔗 [https://github.com/surajshivkumar/TokenWhale/issues](https://github.com/surajshivkumar/TokenWhale/issues)
 
 ## References
 
